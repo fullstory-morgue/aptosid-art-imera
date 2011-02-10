@@ -1,6 +1,5 @@
-aptosid-art-imera (0.0.0) UNRELEASED; urgency=low
+aptosid-art-imera (0.0.0) unstable; urgency=low
 
-  * NOT RELEASED YET
   * add initial dummy artwork.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 10 Feb 2011 16:59:05 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 10 Feb 2011 17:46:49 +0100
