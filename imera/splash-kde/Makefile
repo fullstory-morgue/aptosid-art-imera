@@ -1,6 +1,6 @@
 #!/usr/bin/make -f
 
-THEME= aptosid-geras
+THEME= aptosid-imera
 CONTROLDIR= 1920x1200
 
 all: prepare background aptosid freds

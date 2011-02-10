@@ -1,5 +1,5 @@
 #
-# Default aptosid 2011-01 geras theme 
+# Default aptosid 2011-02 imera theme 
 # for xfce4 based on the balou engine
 #
 # Copyright (c) 2010 David Creedy <klaymen@sidux.com>
@@ -30,8 +30,8 @@
 # Info section
 #
 [Info]
-Name=aptosid 2011-01 (geras)
-Description=default xfce theme for aptosid 2011-01 release
+Name=aptosid 2011-02 (imera)
+Description=default xfce theme for aptosid 2011-02 release
 
 #
 # splash screen settings

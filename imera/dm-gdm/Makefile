@@ -1,6 +1,6 @@
 #!/usr/bin/make -f
 
-THEME= aptosid-geras
+THEME= aptosid-imera
 BITMAPS= files background fred
 
 all: $(BITMAPS)
@@ -11,7 +11,7 @@ files:
 	cp GdmGreeterTheme.desktop $(THEME)/
 	cp session.png $(THEME)/
 	cp system.png $(THEME)/
-	cp geras.xml $(THEME)/
+	cp imera.xml $(THEME)/
 	cp screenshot.png $(THEME)/
 
 background:
