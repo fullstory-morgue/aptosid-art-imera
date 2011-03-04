@@ -1,8 +1,12 @@
 aptosid-art-imera (0.0.2) UNRELEASED; urgency=low
 
+  [ Stefan Lippers-Hollmann ]
   * NOT RELEASED YET
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 20 Feb 2011 03:05:16 +0100
+  [ Rick Battle ]
+  * dropped the out of place oxygenrc, added alternate dark colour theme, updated install file to install both colour themes 
+
+ -- Rick Battle <rick.battle@solmera.com>  Thu, 03 Mar 2011 20:29:41 -0500
 
 aptosid-art-imera (0.0.1) unstable; urgency=low
 
