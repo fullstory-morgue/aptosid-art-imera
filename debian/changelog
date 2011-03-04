@@ -5,8 +5,9 @@ aptosid-art-imera (0.0.2) UNRELEASED; urgency=low
 
   [ Rick Battle ]
   * dropped the out of place oxygenrc, added alternate dark colour theme, updated install file to install both colour themes 
+  * initial commit of concept for wallpaper (incomplete, very)
 
- -- Rick Battle <rick.battle@solmera.com>  Thu, 03 Mar 2011 20:29:41 -0500
+ -- Rick Battle <rick.battle@solmera.com>  Fri, 04 Mar 2011 00:47:44 -0500
 
 aptosid-art-imera (0.0.1) unstable; urgency=low
 
