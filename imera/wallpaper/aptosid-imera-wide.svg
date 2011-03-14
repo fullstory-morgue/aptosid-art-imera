@@ -957,7 +957,7 @@
        color-interpolation-filters="sRGB">
       <feGaussianBlur
          id="feGaussianBlur6638"
-         stdDeviation="1.0866039"
+         stdDeviation="2"
          inkscape:collect="always" />
     </filter>
     <filter
@@ -1355,6 +1355,46 @@
          in="fbSourceGraphic"
          id="feGaussianBlur388" />
     </filter>
+    <filter
+       id="filter1138"
+       inkscape:label="Inner Glow"
+       inkscape:menu="Shadows and Glows"
+       inkscape:menu-tooltip="Adds a colorizable glow inside"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur1140"
+         stdDeviation="3"
+         result="result8" />
+      <feComposite
+         id="feComposite1142"
+         in2="result8"
+         result="result6"
+         in="SourceGraphic"
+         operator="in" />
+      <feComposite
+         id="feComposite1144"
+         in2="result6"
+         operator="in"
+         result="result11" />
+      <feFlood
+         id="feFlood1146"
+         result="result10"
+         in="result11"
+         flood-opacity="1"
+         flood-color="rgb(83,96,253)" />
+      <feBlend
+         id="feBlend1148"
+         in2="result10"
+         mode="normal"
+         in="result11"
+         result="result12" />
+      <feComposite
+         id="feComposite1150"
+         in2="SourceGraphic"
+         result="result2"
+         operator="in"
+         in="result12" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -1363,9 +1403,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.38443359"
-     inkscape:cx="1106.1308"
-     inkscape:cy="716.65815"
+     inkscape:zoom="0.19753086"
+     inkscape:cx="639.41871"
+     inkscape:cy="1018.6811"
      inkscape:document-units="px"
      inkscape:current-layer="layer4"
      showgrid="false"
@@ -1621,7 +1661,7 @@
      inkscape:groupmode="layer"
      id="layer8"
      inkscape:label="streaks"
-     style="filter:url(#filter4467)"
+     style="display:inline;filter:url(#filter4467)"
      sodipodi:insensitive="true">
     <path
        transform="matrix(0,-1,1,0,830.85525,1989)"
@@ -1704,11 +1744,12 @@
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="text"
-     style="display:inline">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <g
        inkscape:label="aptosid"
        id="g4518"
-       transform="matrix(0.65923043,0,0,0.65923043,1526.4741,-22.201453)"
+       transform="matrix(0.65923043,0,0,0.65923043,1526.4741,-15.201453)"
        style="fill:#0000ff;fill-opacity:1;display:inline;filter:url(#filter326)">
       <text
          inkscape:export-ydpi="90"
@@ -1786,7 +1827,7 @@
     <g
        inkscape:label="aptosid"
        id="g4486"
-       transform="matrix(0.65923043,0,0,0.65923043,1526.4741,-22.201453)"
+       transform="matrix(0.65923043,0,0,0.65923043,1526.4741,-15.201453)"
        style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:12.13536167;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline;filter:url(#filter4514)">
       <text
          inkscape:export-ydpi="90"
@@ -1861,9 +1902,15 @@
          d="m 433.60678,1487.1824 20.32031,0 0,68.2031 -11.60156,0 0,-56.6016 -8.71875,0 0,-11.6015"
          sodipodi:nodetypes="ccccccc" />
     </g>
+    <path
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path1101"
+       d="m 1821.9797,945.05607 6.5231,6.52243 -6.5231,6.52308 -6.5224,-6.52308 z"
+       style="fill:#af0000;fill-opacity:1;fill-rule:nonzero;stroke:#afafaf;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
     <g
-       style="fill:#ffffff;fill-opacity:1;display:inline"
-       transform="matrix(0.65923043,0,0,0.65923043,1526.4741,-22.201453)"
+       style="fill:#ffffff;fill-opacity:1;display:inline;filter:url(#filter1138)"
+       transform="matrix(0.65923043,0,0,0.65923043,1526.4741,-15.201453)"
        id="aptosid"
        inkscape:label="aptosid">
       <text
@@ -1893,12 +1940,6 @@
              id="tspan4483"
              dx="-84.947563"
              dy="-6.0676837">Ἡμέρα</tspan></tspan></text>
-      <path
-         sodipodi:nodetypes="ccccc"
-         inkscape:connector-curvature="0"
-         id="path4055"
-         d="m 448.25844,1456.6341 9.895,9.894 -9.895,9.895 -9.894,-9.895 z"
-         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" />
       <path
          inkscape:export-ydpi="90"
          inkscape:export-xdpi="90"
@@ -1944,6 +1985,7 @@
      inkscape:groupmode="layer"
      id="layer6"
      inkscape:label="fred"
+     style="display:inline"
      sodipodi:insensitive="true">
     <g
        transform="matrix(-1,0,0,1,1311.4286,-424.90374)"
