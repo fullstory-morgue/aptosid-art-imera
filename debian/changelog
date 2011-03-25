@@ -8,8 +8,9 @@ aptosid-art-imera (0.0.2) UNRELEASED; urgency=low
   * initial commit of concept for wallpaper (incomplete, very)
   * added streaks, fred, text
   * minor fred and text tweaks
+  * brightened and blued bits
 
- -- Rick Battle <rick.battle@solmera.com>  Sun, 13 Mar 2011 22:40:12 -0400
+ -- Rick Battle <rick.battle@solmera.com>  Fri, 25 Mar 2011 00:18:58 -0400
 
 aptosid-art-imera (0.0.1) unstable; urgency=low
 
