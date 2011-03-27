@@ -1,10 +1,7 @@
-aptosid-art-imera (0.0.2) UNRELEASED; urgency=low
+aptosid-art-imera (0.0.2) unstable; urgency=low
 
-  [ Stefan Lippers-Hollmann ]
-  * NOT RELEASED YET
-
-  [ Rick Battle ]
-  * dropped the out of place oxygenrc, added alternate dark colour theme, updated install file to install both colour themes 
+  * dropped the out of place oxygenrc, added alternate dark colour theme,
+    updated install file to install both colour themes
   * initial commit of concept for wallpaper (incomplete, very)
   * added streaks, fred, text
   * minor fred and text tweaks
