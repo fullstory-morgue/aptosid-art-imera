@@ -10,7 +10,7 @@ files:
 	cp session.png $(THEME)
 	cp system.png $(THEME)
 	cp KdmGreeterTheme.desktop $(THEME)
-	cp imera.xml $(THEME)
+	cp apate.xml $(THEME)
 	cp oxygen.svg $(THEME)
 	cp screenshot.png $(THEME)
 

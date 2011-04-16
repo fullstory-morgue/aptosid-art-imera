@@ -1,8 +1,12 @@
 aptosid-art-imera (0.0.3) UNRELEASED; urgency=low
 
+  [ Stefan Lippers-Hollmann ]
   * NOT RELEASED YET
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 27 Mar 2011 17:44:11 +0200
+  [ Rick Battle ]
+  * updated kdm theme to imera background
+
+ -- Rick Battle <rick.battle@solmera.com>  Sat, 16 Apr 2011 16:58:54 -0400
 
 aptosid-art-imera (0.0.2) unstable; urgency=low
 
