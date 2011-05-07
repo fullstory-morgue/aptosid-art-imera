@@ -8,6 +8,7 @@ aptosid-art-imera (0.0.3) unstable; urgency=low
 
   [ Rick Battle ]
   * updated gdm theme to imera background
+  * updated xfce-splash to imera background
 
   [ Stefan Lippers-Hollmann ]
   * bump standards version to 3.9.2, no changes necessary.
