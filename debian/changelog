@@ -1,14 +1,13 @@
-aptosid-art-imera (0.0.4) UNRELEASED; urgency=low
+aptosid-art-imera (0.0.4) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * updated xfce-splash to imera background.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 29 Apr 2011 03:03:35 +0200
+ -- Rick Battle <rick.battle@solmera.com>  Sat, 07 May 2011 24:11:19 +0200
 
 aptosid-art-imera (0.0.3) unstable; urgency=low
 
   [ Rick Battle ]
   * updated gdm theme to imera background
-  * updated xfce-splash to imera background
 
   [ Stefan Lippers-Hollmann ]
   * bump standards version to 3.9.2, no changes necessary.
