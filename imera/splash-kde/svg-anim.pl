@@ -45,6 +45,10 @@ foreach $arg (@ARGV)
 		{
 			$effects[@effects-1]{'pos'}=1;
 		}
+		if ($_=~/^middle$/i)
+		{
+			$effects[@effects-1]{'pos'}=0.5;
+		}
 	}
 }
 

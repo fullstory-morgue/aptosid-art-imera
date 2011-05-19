@@ -3,7 +3,7 @@
 THEME= aptosid-imera
 CONTROLDIR= 1920x1200
 
-all: prepare background aptosid freds
+all: prepare background freds
 
 prepare:
 	$(RM) -r $(THEME)
@@ -11,8 +11,8 @@ prepare:
 	mkdir -p $(THEME)/1920x1080
 	mkdir -p $(THEME)/1600x1200
 	mkdir -p $(THEME)/1280x1024
-	cp Theme.rc $(THEME)/
 	cp Preview.png $(THEME)/
+	cp Theme.rc $(THEME)/
 	cp description.txt $(THEME)/$(CONTROLDIR)
 
 background:
@@ -23,11 +23,11 @@ background:
 		--export-png="$(THEME)/1920x1080/$@.png" $@-really-wide.svg
 	inkscape --without-gui --export-png="$(THEME)/$(CONTROLDIR)/$@.png" $@-wide.svg
 
-aptosid:
-	inkscape --without-gui --export-png="$(THEME)/$(CONTROLDIR)/$@.png" $@.svg
-
 freds:
 	./make_the_freds
+	ln -s  ../$(CONTROLDIR)/fred.png $(THEME)/1920x1080/fred.png
+	ln -s  ../$(CONTROLDIR)/fred.png $(THEME)/1600x1200/fred.png
+	ln -s  ../$(CONTROLDIR)/fred.png $(THEME)/1280x1024/fred.png
 
 clean:
 	$(RM) -r $(THEME)
