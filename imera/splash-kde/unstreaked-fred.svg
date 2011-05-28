@@ -9,8 +9,8 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="215"
-   height="358"
+   width="160"
+   height="265"
    id="svg2"
    version="1.1"
    inkscape:version="0.48.1 r9760"
@@ -259,6 +259,7 @@
       </cc:Work>
     </rdf:RDF>
   </metadata>
+<g transform="scale(0.74)">
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
@@ -287,4 +288,5 @@
       </g>
     </g>
   </g>
+</g>
 </svg>

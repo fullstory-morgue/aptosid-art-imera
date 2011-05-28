@@ -1,8 +1,12 @@
 aptosid-art-imera (0.0.6) UNRELEASED; urgency=low
 
+  [ Stefan Lippers-Hollmann ]
   * NOT RELEASED YET
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 19 May 2011 02:35:44 +0200
+  [ Niall Walsh ]
+  * ksplash: set scale off for anims and position/size for 800x480 up
+
+ -- Niall Walsh <niallwalsh@users.berlios.de>  Sat, 28 May 2011 20:31:01 +0100
 
 aptosid-art-imera (0.0.5) unstable; urgency=low
 
