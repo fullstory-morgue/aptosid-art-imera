@@ -3,7 +3,8 @@ Section: graphics
 Priority: extra
 Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
 Uploaders: Bernard Gray <bernard.gray@gmail.com>,
- Rick Battle <rick.battle@celtrenicdesigns.com>
+ Rick Battle <rick.battle@celtrenicdesigns.com>,
+ Chris Hildebrandt <slam@aptosid.com>
 Build-Depends: debhelper (>= 8),
  inkscape,
  perl,
@@ -26,6 +27,16 @@ Vcs-Browser: http://svn.berlios.de/wsvn/fullstory/aptosid-art-imera/trunk/
 # .
 # This package does not override existing theme configurations and needs to be
 # selected manually.
+
+Package: aptosid-art-slim-imera
+Architecture: all
+Depends: ${misc:Depends},
+ slim
+Description: slim theme for aptosid 2011-02 release
+ release specific artwork theme for the slim display manager to be used in
+ combination with GTK2 based desktop environments like Xfce or LXDE.
+ .
+ slim artwork for: aptosid 2011-02 (Ἡμέρα)
 
 Package: aptosid-art-kde-imera
 Architecture: all

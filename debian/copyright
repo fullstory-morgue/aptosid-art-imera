@@ -8,6 +8,7 @@ Copyright: 2007-2010, Bernard Gray <bernard.gray@gmail.com>
            2007-2011, Stefan Lippers-Hollmann <s.l-h@gmx.de>
            2009, David Creedy <djcreedy@iinet.net.au>
            2010-2011, Rick Battle <rick.battle@celtrenicdesigns.com>
+           2011, Chris Hildebrandt <slam@aptosid.com>
 License: GPL-2+
 
 Files: imera/dm-gdm/language.png, imera/dm-gdm/session.png, imera/dm-gdm/system.png, imera/dm-kdm/oxygen.svg, imera/dm-kdm/session.png, imera/dm-kdm/system.png
@@ -24,9 +25,17 @@ Files: imera/splash-kde/svg-anim.pl, imera/splash-kde/composite_pngs.pl
 Copyright: 2009-2010, Naill Walsh <niallwalsh@users.berlios.de>
 License: GPL-2+
 
+Files: imera/dm-slim
+Copyright: 2009, Yves-Alexis Perez <corsac@debian.org>
+           2009, Valessio S Brito <valessio at debianart.org>
+           2009, Johannes Winkelmann
+           2011, Chris Hildebrandt <slam@aptosid.com>
+License: GPL-2+
+
 Files: debian/*
 Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
            2007-2011, Stefan Lippers-Hollmann <s.l-h@gmx.de>
+           2011, Chris Hildebrandt <slam@aptosid.com>
 License: GPL-2
 
 License: GPL-2
